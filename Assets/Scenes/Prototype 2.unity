@@ -483,7 +483,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -566,7 +566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 7b6675de545141649953fd8adec4561b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 7b6675de545141649953fd8adec4561b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -603,6 +603,14 @@ PrefabInstance:
     - target: {fileID: 400046, guid: 7b6675de545141649953fd8adec4561b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564331079, guid: 7b6675de545141649953fd8adec4561b, type: 3}
+      propertyPath: speed
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 564331079, guid: 7b6675de545141649953fd8adec4561b, type: 3}
+      propertyPath: xRange
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7356297160159389049, guid: 7b6675de545141649953fd8adec4561b, type: 3}
