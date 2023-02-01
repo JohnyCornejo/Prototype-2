@@ -362,8 +362,7 @@ GameObject:
   - component: {fileID: 400046}
   - component: {fileID: 9500000}
   - component: {fileID: 564331079}
-  - component: {fileID: 7356297160159389049}
-  - component: {fileID: 708618713072114779}
+  - component: {fileID: 690246080}
   m_Layer: 0
   m_Name: SimpleFarmer_Man_02_White
   m_TagString: Untagged
@@ -424,10 +423,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
-  speed: 10
-  xRange: 10
+  speed: 13
+  xRange: 16
   projectilePrefab: {fileID: 8227629238467582952, guid: cf3229b9e6340428a8ec4fbe1073c422, type: 3}
---- !u!114 &7356297160159389049
+--- !u!114 &690246080
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -436,19 +435,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfa1f1a7cd9a14f609a2401b8e44f45e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &708618713072114779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfa1f1a7cd9a14f609a2401b8e44f45e, type: 3}
+  m_Script: {fileID: 11500000, guid: 056471272b39645809e417dbbb74a717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &112120
